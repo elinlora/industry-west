@@ -36,7 +36,9 @@
   }
   /* ======> Mobile <====== */
   @media only screen and (max-width: 599.8px) {
-    .main-table {}
+    .top-bar {
+      display: none;
+    }
   }
   </style>
 </head>
@@ -47,11 +49,28 @@
       <tbody>
         <tr>
           <td align="center">
-          <!-- Main Table -->
-          <table class="main-table" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
-            
-          </table>
-          <!-- / Main Table -->
+            <!-- Main Table -->
+            <table class="main-table" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+              <!-- ======> Top Bar <====== -->
+              <tr>
+                <td class="top-bar" bgcolor="cdcdcd" style="padding: 12px;">
+                  <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="width: 50%;">
+                          <p style="font-family: Arial; font-size: 10px; color: #333333;">Strong & Stylish Design</p>
+                        </td>
+                        <td align="right" style="width: 50%;">
+                          <a href="#" style="font-family: Arial; font-size: 10px; color: #8C8C8C;">View in browser</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!-- ======> / Top Bar <====== -->
+            </table>
+            <!-- / Main Table -->
           </td>
         </tr>
       </tbody>
